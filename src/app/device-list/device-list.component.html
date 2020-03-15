@@ -5,15 +5,13 @@
       <div class="card-indicator" ></div>
     </div>
       <div class="col-8">
-        <p class="card-title">{{ product.name }}</p>    
-        <p class="card-text">{{ product.status }}</p>
+        <h2 style="margin-bottom:0px; margin-top:-3px;">{{ product.name }}</h2> <p class="card-text">{{ product.status }}</p>
       </div>
     </div>      
   </div>
 </div>
   <div id="wrapper">
-  <button type="button" class="btn btn-primary" href="">Zeskanuj kod QR</button>
-  <a [routerLink]="['/confirmation']" class="bottom-link" > Zgłoś wolną praleczkę </a>
+  <button type="button" class="btn btn-primary" [routerLink]="['/busy']">Zeskanuj kod QR</button>
   </div>
 
 

@@ -4,9 +4,46 @@ body{
 background-color:#F9F3EE;
 }
 
+p {
+  font-family: Open Sans;
+  font-weight:400;
+  font-size:15px;
+  line-height:1.5em ;
+  letter-spacing: 0;
+  color: #484848;
+
+}
+
+h1{
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:25px;
+  line-height: 1.4em;
+  letter-spacing: 0;
+  color: #484848;
+  opacity: 1;
+  margin-top:-3px;
+  display:block;
+
+}
+
+h2{
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:23px;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  color: #484848;
+  opacity: 1;
+  margin-top:-3px;
+  display:block;
+}
+
 .container {
   padding-right: 24px;
   padding-left: 24px;
+  min-height: 100%;
+  overflow:hidden;
 }
 
 .contaier-fluid {
@@ -15,8 +52,8 @@ background-color:#F9F3EE;
 }
 
 .btn{
-  position:absolute;
-  bottom:56px;
+  position:relative;
+  bottom:10px;
   font-family: Futura PT;
   font-weight:500;
   font-size:20px;

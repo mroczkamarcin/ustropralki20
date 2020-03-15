@@ -11,8 +11,6 @@
   margin-right:auto;
 }
 
-
-
 .card-indicator{
   width:10px;
   height:56px;
@@ -20,20 +18,6 @@
   background-color:red;
   display:block;
   border-radius: 12px;
-}
-
-.card-title{
-  font-family: Futura PT;
-  font-weight:500;
-  font-size:23px;
-  line-height: 1.5em;
-  letter-spacing: 0;
-  color: #484848;
-  opacity: 1;
-  margin-top:-3px;
-  display:block;
-  margin-bottom:0px;
-
 }
 
 .card-text{
