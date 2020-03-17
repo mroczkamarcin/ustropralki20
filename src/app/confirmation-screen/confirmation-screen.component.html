@@ -2,7 +2,7 @@
     <div class="row">
   
       <div class="col-12">
-        <h1 style="text-align:center; margin-bottom:24px;">Czy na pewno
+        <h1 style="text-align:center; margin-bottom:18px;">Czy na pewno
 chcesz zgłosić tą pralkę
 jako wolną?</h1>    
         <p style="text-align:center;">Zrób to tylko jeśli pralka <br>
@@ -10,7 +10,11 @@ faktycznie jest wolna. W innym
 przypadku RM Cię dojedzie.</p>
       </div>
       
-      <div class ="col-2" style="text-align:center; margin: 20px 0px;">
-      <button type="button" class="btn" [routerLink]="['/']">Nope</button>
+      <div class ="col-6" style="text-align:center; margin-top:15px;">
+      <button type="button" style="padding: 0 35px;" class="btn-light" [routerLink]="['/']">Nope</button>
+      </div>
+      
+    <div class ="col-6" style="text-align:center; margin-top:15px;">
+      <button type="button" style="padding: 0 40px;"class="btn" [routerLink]="['/released']">Tak</button>
       </div>
     </div>      
