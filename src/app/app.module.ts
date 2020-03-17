@@ -8,6 +8,7 @@ import { TopBarComponent } from './top-bar/top-bar.component';
 import { DeviceListComponent } from './device-list/device-list.component';
 import { ConfirmationScreenComponent } from './confirmation-screen/confirmation-screen.component';
 import { BusyScreenComponent } from './busy-screen/busy-screen.component';
+import { TimerScreenComponent } from './timer-screen/timer-screen.component';
 
 
 @NgModule({
@@ -17,10 +18,11 @@ import { BusyScreenComponent } from './busy-screen/busy-screen.component';
   RouterModule.forRoot([
       { path: '', component: DeviceListComponent },
       { path: 'confirmation', component: ConfirmationScreenComponent },
-      { path: 'busy', component: BusyScreenComponent }
+      { path: 'busy', component: BusyScreenComponent },
+      { path: 'timer', component: TimerScreenComponent }
     ])   
   ],
-  declarations: [ AppComponent, TopBarComponent, DeviceListComponent, ConfirmationScreenComponent, BusyScreenComponent ],
+  declarations: [ AppComponent, TopBarComponent, DeviceListComponent, ConfirmationScreenComponent, BusyScreenComponent, TimerScreenComponent ],
   bootstrap:    [ AppComponent ]
 })
 export class AppModule { }
