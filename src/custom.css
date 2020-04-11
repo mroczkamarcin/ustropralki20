@@ -4,10 +4,68 @@ body{
 background-color:#F9F3EE;
 }
 
+p {
+  font-family: Open Sans;
+  font-weight:400;
+  font-size:15px;
+  line-height:1.5em ;
+  letter-spacing: 0;
+  color: #484848;
+
+}
+
+h1{
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:25px;
+  line-height: 1.4em;
+  letter-spacing: 0;
+  color: #484848;
+  opacity: 1;
+  margin-top:-3px;
+  display:block;
+
+}
+
+h2{
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:23px;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  color: #484848;
+  opacity: 1;
+  margin-top:-3px;
+  display:block;
+}
+
+.timer {
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:40px;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  color: #484848;
+  opacity: 1;
+  margin-top:-3px;
+  display:block;
+
+}
+
 .container {
   padding-right: 24px;
   padding-left: 24px;
+  padding-top:32px;
+  padding-bottom:32px;
+  height: calc(100vh - 64px);
 }
+
+#wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+/* BITTONS */
 
 .contaier-fluid {
   padding-right: 0px !important;
@@ -15,8 +73,7 @@ background-color:#F9F3EE;
 }
 
 .btn{
-  position:absolute;
-  bottom:56px;
+  position:relative;
   font-family: Futura PT;
   font-weight:500;
   font-size:20px;
@@ -30,25 +87,77 @@ background-color:#F9F3EE;
   background-color: #E55900;
   color:white;
   border:none;
+}
+
+.btn-bot{
+  position:absolute;
+  bottom:32px;
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:20px;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  height:48px;
+  padding-left:42px;
+  padding-right:42px;
+  box-shadow: 0px 8px 20px #FF660080;
+  border-radius: 32px;
+  background-color: #E55900;
+  color:white;
+  border:none;
+}
+
+.btn-light{
+  position:relative;
+  font-family: Futura PT;
+  font-weight:500;
+  font-size:20px;
+  line-height: 1.5em;
+  letter-spacing: 0;
+  height:48px;
+  padding-left:42px;
+  padding-right:42px;
+  border-radius: 32px;
+  background-color: #FFECDB;
+  color:#E55900;
+  border:none;
+}
+
+.btn-bot:hover{
+  background-color:rgb(248, 123, 45);
 
 }
 
 .btn:hover{
   background-color:rgb(248, 123, 45);
+  color:white;
+}
+
+.btn:active{
+  background-color:rgb(248, 123, 45);
 
 }
 
-#wrapper{
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.btn-bot:active{
+  background-color:rgb(248, 123, 45);
 
 }
+
+.btn-light:hover{
+  background-color:rgb(250, 228, 209);
+  color:#E55900;
+}
+
+.btn-light:active{
+  background-color:rgb(250, 224, 201);
+  color:#E55900;
+}
+
+/* END OF BUTTONS */
+
 
 .bottom-link{
-  position:absolute;
-  bottom:22px;
+  position:relative;
   text-decoration: underline;
   font-family:Open Sans;
   font-weight: 400;
@@ -57,5 +166,19 @@ background-color:#F9F3EE;
   letter-spacing: 0;
   color: #484848;
 
+}
+
+
+.infocard-body{
+  box-shadow: 0px 5px 10px #9898981A;
+  border-radius: 15px;
+  background-color:white;
+  min-height:88px;
+  max-width:312px;
+  padding: 32px !important;
+  margin-left:auto;
+  margin-right:auto;
+  margin-top:22vh;
+  
 }
 

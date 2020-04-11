@@ -1,0 +1,10 @@
+{
+  "lewa_pralka": {
+    "userID": "2323",
+    "end_time": "nowy czas"
+  },
+  "prawa_pralka": {
+    "userID": "1234",
+    "end_time": "data"
+  }
+}
